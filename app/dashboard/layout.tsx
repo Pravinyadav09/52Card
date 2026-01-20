@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { User, Home, HelpCircle, LogOut, Menu, Trophy, ArrowLeft, Calendar } from "lucide-react";
+import { User, Home, HelpCircle, LogOut, Menu, Trophy, ArrowLeft, Calendar, LayoutDashboard } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
 export default function DashboardLayout({
@@ -51,7 +51,7 @@ export default function DashboardLayout({
                         Navigation
                     </label>
                     <div className="space-y-1">
-                        <NavItem href="/dashboard" icon={Home} label="The Scoreboard" />
+                        <NavItem href="/dashboard" icon={LayoutDashboard} label="Dashboard" />
                         <NavItem href="/dashboard/bookings" icon={Calendar} label="Book an Expert" />
                         <NavItem href="/dashboard/profile" icon={User} label="Personal Profile" />
                         <NavItem href="/dashboard/help" icon={HelpCircle} label="Help & Support" />

@@ -30,7 +30,7 @@ export default function AdminDashboardPage() {
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 px-1">
                 <div className="space-y-1">
                     <h1 className="text-3xl md:text-4xl font-black text-zinc-900 tracking-tight leading-tight">
-                        Admin <span className="text-amber-500">Overview</span>
+                        Admin <span className="text-amber-500">Dashboard</span>
                     </h1>
                     <p className="text-zinc-500 text-sm font-medium">Clear actions and pending tasks for today.</p>
                 </div>

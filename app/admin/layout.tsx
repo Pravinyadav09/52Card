@@ -49,7 +49,7 @@ export default function AdminLayout({
                         Management
                     </label>
                     <div className="space-y-1">
-                        <NavItem href="/admin/dashboard" icon={LayoutGrid} label="Overview" onClick={onNavItemClick} />
+                        <NavItem href="/admin/dashboard" icon={LayoutGrid} label="Dashboard" onClick={onNavItemClick} />
                         <NavItem href="/admin/users" icon={Users} label="User Management" onClick={onNavItemClick} />
                         <NavItem href="/admin/content" icon={PlayCircle} label="Content System 52" onClick={onNavItemClick} />
                         <NavItem href="/admin/logistics" icon={Truck} label="Kit Logistics" onClick={onNavItemClick} />
