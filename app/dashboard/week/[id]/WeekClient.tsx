@@ -46,16 +46,8 @@ export default function WeekClient({ weekData }: WeekClientProps) {
 
     return (
         <div className="space-y-8 animate-in slide-in-from-right-4 duration-700 max-w-6xl mx-auto pb-20">
-            {/* Header / Breadcrumb */}
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 px-1">
-                <Button
-                    variant="ghost"
-                    onClick={() => router.push('/dashboard')}
-                    className="pl-0 text-zinc-500 hover:text-zinc-900 group transition-all text-sm h-auto py-0"
-                >
-                    <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-1 transition-transform" />
-                    Back
-                </Button>
+            {/* Header / Breadcrumb - Back button removed */}
+            <div className="flex flex-col md:flex-row justify-end items-start md:items-center gap-4 px-1">
 
                 <div className="flex flex-wrap items-center gap-2 w-full sm:w-auto">
                     <Button variant="outline" onClick={copyTeamLink} className="flex-1 sm:flex-none rounded-xl border-zinc-200 text-zinc-600 font-bold group h-10 text-xs">
